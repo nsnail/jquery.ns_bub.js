@@ -15,7 +15,7 @@ jquery.ns_bub.js
 
 浏览器支持
 ----------
-未测试
+* 未测试
 
 使用方法
 ----
@@ -32,21 +32,21 @@ $('#demo1').bub('hello, world!');
 * 示例2
 ```
 <div id="success" style="display:none;">
-	hello, world!
+		<font color="green">hello, world!</font>
 </div>
 ```
 ```
 $('#demo1').bub(
 		$('#success'),
 		{
-			color: 'green',
+			color: '#baffc2',
 			padding: '5px',
 			radius: '10px',
-			shadow: '5px 5px 5px #ccc'
+			shadow: '5px 5px 5px #ccc',
 			left: 5,
 			right: 5,
 			arrow_size: '10px',
-			arrow_direct: ['bottom','right'],
+			arrow_direct: ['top','left'],
 			click_blank_hide: false
 		}
 );
@@ -66,14 +66,3 @@ defaults: {
 		click_blank_hide: true			//点击页面空白处时是否销毁气泡
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
