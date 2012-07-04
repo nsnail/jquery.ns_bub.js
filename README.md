@@ -35,7 +35,6 @@ $('#demo1').bub('hello, world!');
 		<font color="green">hello, world!</font>
 </div>
 ```
-![示例2](https://github.com/nsnail/jquery.ns_bub.js/raw/master/dist/2012-07-04_233701.png "示例2")
 ```
 $('#demo1').bub(
 		$('#success'),
@@ -52,6 +51,7 @@ $('#demo1').bub(
 		}
 );
 ```
+![示例2](https://github.com/nsnail/jquery.ns_bub.js/raw/master/dist/2012-07-04_233701.png "示例2")
 
 * Options说明
 ```
