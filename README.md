@@ -7,18 +7,17 @@ jquery.ns_bub.js
 * 纯CSS
 
 更新日志
-----
+--------
 * **v0.1.0**	*2012.07.04*
 
 	> ~ 第一版
-
 
 浏览器支持
 ----------
 * 未测试
 
 使用方法
-----
+--------
 * 原型
 ```
 $(selector).bub($(selector) | string [, options]);
@@ -28,6 +27,7 @@ $(selector).bub($(selector) | string [, options]);
 ```
 $('#demo1').bub('hello, world!');
 ```
+![示例1](https://github.com/nsnail/jquery.ns_bub.js/raw/master/dist/2012-07-04_233651.png "示例1")
 
 * 示例2
 ```
@@ -35,6 +35,7 @@ $('#demo1').bub('hello, world!');
 		<font color="green">hello, world!</font>
 </div>
 ```
+![示例2](https://github.com/nsnail/jquery.ns_bub.js/raw/master/dist/2012-07-04_233701.png "示例2")
 ```
 $('#demo1').bub(
 		$('#success'),
