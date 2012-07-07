@@ -1,4 +1,4 @@
-jquery.ns_bub.js	[[Download]](https://raw.github.com/nsnail/jquery.ns_bub.js/master/dist/)
+jquery.ns_bub.js	[[Download]](https://github.com/nsnail/jquery.ns_bub.js/tree/master/dist/)
 ================
 
 简介
