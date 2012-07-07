@@ -29,8 +29,8 @@
 					border-' + opts.arrow_direct[1] + ':' + opts.color + ' ' + opts.arrow_size + ' solid;\
 					position:absolute;\
 					border-' + (opts.arrow_direct[0] == 'top' ? 'bottom' : 'top') + '-' + opts.arrow_direct[1] + '-radius:' + opts.radius + ';\
-					left:' + ($(this).position().left + opts.left) + 'px;\
-					top:' + ($(this).position().top + $(this).outerHeight() + opts.top) + 'px;\
+					left:' + ($(this).offset().left + opts.left) + 'px;\
+					top:' + ($(this).offset().top + $(this).outerHeight() + opts.top) + 'px;\
 					">\
 					\
 					\
@@ -45,7 +45,7 @@
 					border-bottom-' + (opts.arrow_direct[1] == 'left' ? 'right' : 'left') + '-radius:' + opts.radius + ';\
 					"></div></div>');
 
-				$(this).parent().append(bub_box);
+				$('body').append(bub_box);
 				$(this).data().buber = bub_box;
 				$(this).attr('ns_bub_binder', opts.click_blank_hide);
 				if (content instanceof $) {
