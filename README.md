@@ -1,4 +1,4 @@
-jquery.ns_bub.js
+jquery.ns_bub.js	[[Download]](https://raw.github.com/nsnail/jquery.ns_bub.js/master/dist/)
 ================
 
 简介
@@ -8,7 +8,7 @@ jquery.ns_bub.js
 
 更新日志
 --------
-* **v0.1.0**	*2012.07.04*	[[Download]](http://example.com/)
+* **v0.1.0**	*2012.07.04*	[[Download]](https://raw.github.com/nsnail/jquery.ns_bub.js/master/dist/jquery.ns_bub-0.1.0.js)
 
 	> ~ 第一版
 
