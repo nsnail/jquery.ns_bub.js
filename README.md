@@ -9,13 +9,11 @@ jquery.ns_bub.js	[[Download]](https://github.com/nsnail/jquery.ns_bub.js/tree/ma
 更新日志
 --------
 * **v0.1.1**	*2012.07.19*	[[Download]](https://raw.github.com/nsnail/jquery.ns_bub.js/master/dist/jquery.ns_bub-0.1.1.js)
-
-	> * 修复IE6下产生黑边的BUG
-	> \- 去掉箭头指向不同方位
-	> \+ 可以设定箭头位置偏移
+	> \* 修复IE6下产生黑边的BUG  
+	> \- 去掉箭头指向不同方位  
+	> \+ 可以设定箭头位置偏移  
 
 * **v0.1.0**	*2012.07.04*	[[Download]](https://raw.github.com/nsnail/jquery.ns_bub.js/master/dist/jquery.ns_bub-0.1.0.js)
-
 	> ~ 第一版
 
 浏览器支持
